@@ -237,3 +237,141 @@
 //     s=s*p;
 // }
 // console.log(s)
+
+// 31. Create a function to add two numbers. 
+// function addTwo(){
+//     let a=10;
+//     let b=20;
+//     let c=a+b;
+//     console.log(c)
+// }
+// addTwo()
+// 32. Create a function to subtract two numbers. 
+// function subTwo(){
+//     let a=10;
+//     let b=20;
+//     let c=a-b;
+//     console.log(c)
+// }
+// subTwo()
+// 33. Create a function to check if a number is even. 
+// function check( a=11){
+//     if(a%2==0){
+//         console.log("number is even")
+//     }else{
+//         console.log("number is odd")
+//     }
+// }
+// check()
+// 34. Create a function to find the square of a number. 
+// function square(a){
+//   let c=a**2;
+//   console.log(c)
+// }
+// square(5)
+// 35. Create a function to convert Celsius to Fahrenheit. 
+
+// function cToF(c){
+//    let f=(c*9/5)+32;
+//    console.log(f)
+// }
+// cToF(50)
+
+// 36. Create a function to convert Fahrenheit to Celsius.
+// function fToC(f){
+//    let c=(f-32)*(5/9)
+//    console.log(c)
+// }
+// fToC(50) 
+// 37. Create a function to find the maximum of two numbers.
+// function maxNumber(m,n){
+
+//     if(m>n){
+//         console.log(m,"is max");
+//     }else{
+//         console.log(n, "is max")
+//     }
+
+// }
+// maxNumber(100,30)
+// 38. Create a function to find the minimum of two numbers. 
+// function minNumber(m,n){
+
+//     if(m>n){
+//         console.log(n,"is min");
+//     }else{
+//         console.log(m, "is min")
+//     }
+
+// }
+// minNumber(100,300)
+// 39. Create a function to check if a number is prime. 
+
+// function isPrime(number) {
+//   if (number <= 1) return false;
+
+//   for (let i = 2; i <= Math.sqrt(number); i++) {
+//     if (number % i === 0) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+// console.log(isPrime(5))
+
+// 40. Create a function to reverse a string. 
+
+// function reverse(){
+//     let a="Bangladesh"; 
+//     let str=a.split("").reverse().join("");
+//     console.log(str)
+// }
+// reverse()
+
+// 41. Create an array of numbers.
+let array=[1,2,3]; 
+// 42. Find the length of an array. 
+let a=[2,3,45,6,77]
+// console.log(a.length)
+// 43. Access the first element of an array. 
+// let arr=[1,2,3,4,5];
+// console.log(arr[0])
+// 44. Access the last element of an array.
+// let arr=[1,2,3,4,5];
+// console.log(arr[arr.length-1])
+// 45. Add an element to the end of an array. 
+// let  arr=[2,4,6,8,10];
+// arr.push(12);
+// console.log(arr)
+// 46. Remove the last element of an array. 
+// let arr=[2,4,6,8,10];
+// arr.pop();
+// console.log(arr)
+// 47. Add an element at the beginning of an array.
+//  let arr=[2,4,6,8,10];
+// arr.unshift(1);
+// console.log(arr)
+// 48. Remove the first element of an array. 
+//  let arr=[2,4,6,8,10];
+// arr.shift();
+// console.log(arr)
+// 49. Find the sum of array elements.
+// let ab =[2,4,6]; 
+// let s=0;
+// for(let i=0;i<ab.length;i++){
+//     s=s+ab[i];
+    
+// }
+// console.log(s)
+// 50. Find the maximum number in an array. 
+
+let arr=[1,3,5,7];
+let check=arr[0];
+for(let i=0;i<arr.length;i++){
+    
+    if (arr[i] > check) {
+        check = arr[i];
+    }
+    
+}
+console.log(check)
